@@ -12,13 +12,13 @@ pip install -r requirement.txt
 python manage.py create_db
 python mannage.py runserver
 ```
-
-## 添加调用HTTP接口的定时任务
+## 详细操作步骤及截图
+### 添加调用HTTP接口的定时任务
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/interface_task_add_1.png)
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/interface_task_add_2.png)
-## 添加定时执行远程SSH COMMAND命令
+### 添加定时执行远程SSH COMMAND命令
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/remotecmd_task_add_1.png)
-## 存量定时任务管理
+### 存量定时任务管理
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/index_1.png)
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/index_2.png)
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/index_3.png)

@@ -22,7 +22,10 @@ python mannage.py runserver
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/index_1.png)
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/index_2.png)
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/index_3.png)
-  
+
+### 自动生成 REST API DOC
+http://127.0.0.1:10103/apidocs/#/
+
 ## 主要依赖的模块
 Flask==1.0.2 <br>
 Flask-APScheduler==1.10.1 <br>

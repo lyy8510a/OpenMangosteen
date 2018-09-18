@@ -24,12 +24,12 @@ python mannage.py runserver
   ![](https://github.com/lyy8510a/OpenMangosteen/blob/master/screenshot/index_3.png)
   
 ## 主要依赖的模块
-Flask==1.0.2
-Flask-APScheduler==1.10.1
-flasgger==0.9.1
-Flask-Login==0.4.1
-Flask-Assets==0.12
-Flask-Migrate==2.2.1
-Flask-Script==2.0.6
-Flask-Session==0.3.1
-Flask-SQLAlchemy==2.3.2
+Flask==1.0.2 <br>
+Flask-APScheduler==1.10.1 <br>
+flasgger==0.9.1 <br>
+Flask-Login==0.4.1 <br>
+Flask-Assets==0.12 <br>
+Flask-Migrate==2.2.1 <br>
+Flask-Script==2.0.6 <br>
+Flask-Session==0.3.1 <br>
+Flask-SQLAlchemy==2.3.2 <br>

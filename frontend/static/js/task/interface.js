@@ -11,7 +11,14 @@ function testConn() {
             'Content-Type': 'application/json'
         },
         data: {'url': url, 'params': params, 'method': method},
+        beforeSend: function(){
+             // Handle the beforeSend event
+                var index = layer.load(1, {
+                  shade: [0.1,'#fff'] //0.1透明度的白色背景
+                });
+            },
         success: function (o) {
+            layer.closeAll('loading');
             if (o.RESPONSE.RETURN_CODE == 'S') {
                 $('#icon_cicle').css({color: "#097a1f"})
                 layer.msg('测试通过')

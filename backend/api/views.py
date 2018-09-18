@@ -20,14 +20,10 @@ api = Blueprint('api', __name__)
 @api.before_request
 def before_request():
     # 请求格式校验拦截
-    if not (request.is_json or request.headers['Accept'] == 'application/json'):
+    if not (request.is_json or 'application/json' in request.headers['Accept']):
         return outputJsonByMessage('E', u'带参数请求请使用json格式')
 
-    if request.method == 'GET':
-        print(request)
 
-    if request.method == 'POST':
-        print(request)
 
 
 @api.route('/get_scheduler_info', methods=(['GET']))
@@ -106,9 +102,9 @@ def get_job():
         app.logger.error(e)
         return outputJsonByMessage('E', u'接口请求异常')
 
-
-def test2(args):
-    print(args)
+@api.route('/test', methods=(['GET']))
+def test2():
+    return outputJsonByMessage('S')
 
 @csrf.exempt
 @api.route('/testconn', methods=(['GET']))
@@ -158,6 +154,7 @@ def testconn():
         else:
             return outputJsonByMessage('E')
     except Exception as e:
+        print(e)
         app.logger.error(e)
         return outputJsonByMessage('E')
 

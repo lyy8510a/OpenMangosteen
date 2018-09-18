@@ -1,0 +1,195 @@
+<!--第四课内容 -->
+{% extends 'base/layout.html' %}
+<META HTTP-EQUIV="Refresh" CONTENT="60">
+<!--第四课内容 下面是正文-->
+{% block content %}
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>接口调用任务看板</h5>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover dataTables-example">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>任务名</th>
+                                    <th>目标url</th>
+                                    <th>调用方式</th>
+                                    <th>参数</th>
+                                    <th>定时类型</th>
+                                    <th>单位</th>
+                                    <th>数值</th>
+                                    <th>添加人</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% for task in all_interface_tasks %}
+                                <tr>
+                                    <td>{{task.id}}</td>
+                                    <td>{{task.task_interface_name}}</td>
+                                    <td>{{task.task_interface_url}}</td>
+                                    <td>{{task.task_interface_method}}</td>
+                                    <td>{{task.task_interface_params}}</td>
+                                    <td>{{task.task_interface_trigger_type}}</td>
+                                    <td>{{task.task_interface_trigger_arg}}</td>
+                                    <td>{{task.task_interface_trigger_value}}</td>
+                                    <td>{{task.addwho}}</td>
+                                    <td style="width: 150px;">
+                                        {% if task.run_status == 0 %}
+                                        <i class="fa fa-circle" style="color: red"></i>
+                                        <button class="btn btn-primary btn-sm"
+                                                onclick=start_task('{{task.id}}','interface')>启动
+                                        </button>
+                                        <button class="btn btn-default btn-sm"
+                                                onclick=del_task('{{task.id}}','interface')>删除
+                                        </button>
+                                        {% else %}
+                                        <i class="fa fa-circle" style="color: green"></i>
+                                        <button class="btn btn-danger  btn-outline btn-sm"
+                                                onclick="stop_task('{{task.id}}','interface')">停止
+                                        </button>
+                                        <button class="btn btn-default btn-sm" onclick="getlog('{{task.id}}','interface')">查看日志
+                                        </button>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>远程执行命令任务看板</h5>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover dataTables-example">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>任务名</th>
+                                    <th>远程主机</th>
+                                    <th>远程主机端口</th>
+                                    <th>执行用户名</th>
+                                    <th>执行方式</th>
+                                    <th>执行命令内容</th>
+
+                                    <th>定时类型</th>
+                                    <th>单位</th>
+                                    <th>数值</th>
+                                    <th>添加人</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% for task in all_remotecmd_tasks %}
+                                <tr>
+                                    <td>{{task.id}}</td>
+                                    <td>{{task.task_remotecmd_name}}</td>
+                                    <td>{{task.task_remotecmd_host}}</td>
+                                    <td>{{task.task_remotecmd_port}}</td>
+                                    <td>{{task.task_remotecmd_username}}</td>
+                                    <td>{{task.task_remotecmd_cmd_type}}</td>
+                                    <td>{{task.task_remotecmd_cmd_value}}</td>
+
+                                    <td>{{task.task_remotecmd_trigger_type}}</td>
+                                    <td>{{task.task_remotecmd_trigger_arg}}</td>
+                                    <td>{{task.task_remotecmd_trigger_value}}</td>
+                                    <td>{{task.addwho}}</td>
+
+                                    <td style="width: 150px;">
+                                        {% if task.run_status == 0 %}
+                                        <i class="fa fa-circle" style="color: red"></i>
+                                        <button class="btn btn-primary btn-sm"
+                                                onclick=start_task('{{task.id}}','remotecmd')>启动
+                                        </button>
+                                        <button class="btn btn-default btn-sm"
+                                                onclick=del_task('{{task.id}}','remotecmd')>删除
+                                        </button>
+                                        {% else %}
+                                        <i class="fa fa-circle" style="color: green"></i>
+                                        <button class="btn btn-danger  btn-outline btn-sm"
+                                                onclick="stop_task('{{task.id}}','remotecmd')">停止
+                                        </button>
+                                        <button class="btn btn-default btn-sm" onclick="getlog('{{task.id}}','remotecmd')">查看日志
+                                        </button>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>实际运行中的作业看板</h5>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+
+                        <div class="table-responsive">
+                            <table id="task_runnning_tb"
+                                   class="table table-striped table-bordered table-hover dataTables-example">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>任务名</th>
+                                    <th>下次执行时间</th>
+                                    <th>执行间隔</th>
+                                    <th>首次执行时间</th>
+                                    <th>参数</th>
+                                </tr>
+                                </thead>
+                                <tbody id="tb">
+                                {% for running_job in running_jobs %}
+                                <tr>
+                                    <td>{{running_job.id}}</td>
+                                    <td>{{running_job.name}}</td>
+                                    <td>{{running_job.next_run_time}}</td>
+                                    <td>{{running_job.interval}}</td>
+                                    <td>{{running_job.start_date}}</td>
+                                    <td>{{running_job.args}}</td>
+                                </tr>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input id="csrf_token" type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+<script src="{{STATIC_URL}}/js/admin/index.js"></script>
+
+<script>
+
+</script>
+{% endblock %}
+
+
+
+

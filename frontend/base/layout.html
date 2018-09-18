@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--第四课内容 这里是页面浏览器tab的标题-->
+    <title>{{PROJECTNAME}}</title>
+    {% include 'base/_head.html' %}
+</head>
+
+<body>
+<div id="wrapper">
+    {% include 'base/_sidebar.html' %}
+    <div id="page-wrapper" class="gray-bg">
+        {% include 'base/_navbar.html' %}
+        {% block content %}{% endblock %}
+    </div>
+</div>
+</body>
+</html>
+
+
+<!--{% with messages = get_flashed_messages() %}-->
+<!--{% if messages %}-->
+<!--<ul class=flashes>-->
+<!--{% for message in messages %}-->
+<!--<li>{{ message }}</li>-->
+<!--{% endfor %}-->
+<!--</ul>-->
+<!--{% endif %}-->
+<!--{% endwith %}-->

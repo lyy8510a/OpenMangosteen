@@ -1,0 +1,46 @@
+<div class="row border-bottom">
+    <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+            <form role="search" class="navbar-form-custom" action="" method="post">
+                <div class="form-group">
+                    <input type="text" placeholder="Search for something..." class="form-control" name="top-search"
+                           id="top-search">
+                </div>
+            </form>
+        </div>
+        <ul class="nav navbar-top-links navbar-right">
+            {% if current_user.is_authenticated %}
+            <li>
+                <span class="m-r-sm text-muted welcome-message">欢迎使用myproject,{{current_user.username}}</span>
+            </li>
+
+            <li>
+                <!--<a href="{{LOGOUT_URL}}">-->
+                <a href="/account/login">
+                    <i class="fa fa-sign-out"></i> Log out
+                </a>
+            </li>
+            {% else %}
+
+            <li>
+                <!--<a href="{{LOGIN_URL}}">-->
+                <a href="/account/logout">
+                    <i class="fa fa-sign-out"></i> 请登录
+                </a>
+            </li>
+
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+{% for message in messages %}
+<div class="alert alert-success">
+    {{ message }}
+    <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+</div>
+{% endfor %}
+{% endif %}
+{% endwith %}

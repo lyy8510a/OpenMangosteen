@@ -1,0 +1,44 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear">
+                                <span class="block m-t-xs">
+                                    <strong class="font-bold">{{PROJECTNAME}}</strong>
+                                </span>
+                            </span>
+                    </a>
+
+                </div>
+                <div class="logo-element">
+                    IN+
+                </div>
+            </li>
+
+            <li class="{% if tag == 'admin' %}{{'active'}}{% endif %}">
+                <a href="/admin"><i class="fa fa-th-large"></i> <span class="nav-label">开始</span></a>
+            </li>
+
+            <li class="{% if tag in 'task,admin' %}{{'active'}}{% endif %}">
+                <a href="#"><i class="fa fa-paper-plane"></i> <span class="nav-label">定时任务管理</span><span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="/task/interface">接口调用任务</a></li>
+                    <li><a href="/task/remotecmd">远程命令任务</a></li>
+                </ul>
+            </li>
+
+            <li class="{% if tag == 'account' %}{{'active'}}{% endif %}">
+                <a href="/account/users"><i class="fa fa-user"></i> <span class="nav-label">用户管理</span></a>
+            </li>
+
+            <!--<li class="{% if tag == 'setting' %}{{'active'}}{% endif %}">-->
+                <!--<a href="/setting/index"><i class="fa fa-cogs"></i> <span class="nav-label">配置管理</span></a>-->
+            <!--</li>-->
+        </ul>
+
+    </div>
+</nav>

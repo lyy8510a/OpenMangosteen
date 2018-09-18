@@ -1,0 +1,134 @@
+<!--第四课内容 -->
+{% extends 'base/layout.html' %}
+
+<!--第四课内容 下面是正文-->
+{% block content %}
+<link href="{{STATIC_URL}}/css/plugins/steps/jquery.steps.css" rel="stylesheet">
+<link href="{{STATIC_URL}}/css/plugins/iCheck/custom.css" rel="stylesheet">
+
+<!-- Steps -->
+<script src="{{STATIC_URL}}/js/plugins/staps/jquery.steps.min.js"></script>
+
+<!-- Jquery Validate -->
+<script src="{{STATIC_URL}}/js/plugins/validate/jquery.validate.min.js"></script>
+
+
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox">
+                <div class="ibox-title">
+                    <h5>定时调用接口任务</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="#">Config option 1</a>
+                            </li>
+                            <li><a href="#">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form id="form" action="/task/interface" method="post" class="wizard-big">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                        <h1>接口信息</h1>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="form-group">
+                                        <label>任务名称 *</label>
+                                        <input id="task_interface_name" name="task_interface_name" type="text"
+                                               onkeyup="value=value.replace(/[^a-z0-9-]|_/g,'');"
+                                               class="form-control required">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>调用方法 *</label>
+                                        <select class="form-control" name="task_interface_method"
+                                                id="task_interface_method">
+                                            <option value="GET">GET</option>
+                                            <option value="POST">POST</option>
+                                        </select>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label>接口URL *</label>
+                                        <input id="task_interface_url" name="task_interface_url"
+                                               placeholder="url中不要单独携带参数" type="text" class="form-control required">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>接口参数 *</label>
+                                        <input id="task_interface_params" name="task_interface_params"
+                                               placeholder="格式:{'参数1':值,'参数2':值}" type="text"
+                                               class="form-control required">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="text-center">
+                                        <div style="margin-top: 20px">
+                                            <i class="fa fa-sign-in" style="font-size: 180px;color: #e5e5e5 "></i>
+                                        </div>
+                                        <i id="icon_cicle" class="fa fa-circle" style="color: red"></i>
+                                        <button type="button" class="btn btn-primary" onclick="testConn()">测试接口</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                        <h1>执行计划</h1>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label>执行间隔类型 *</label>
+                                        <select class="form-control" name="task_interface_trigger_type"
+                                                id="task_interface_trigger_type">
+                                            <option value="interval">interval</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="form-group">
+                                        <label>定时单位 *</label>
+                                        <select class="form-control" name="task_interface_trigger_arg"
+                                                id="task_interface_trigger_arg">
+                                            <option value="seconds">按秒</option>
+                                            <option value="minutes">按分钟</option>
+                                            <option value="hours">按小时</option>
+                                            <option value="days">按天</option>
+                                            <option value="weeks">按周</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>定时值 *</label>
+                                        <input placeholder="只需输入数值" id="task_interface_trigger_value"
+                                               name="task_interface_trigger_value"
+                                               oninput="value=value.replace(/[^\d]/g,'')" type="text"
+                                               class="form-control">
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </fieldset>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="{{STATIC_URL}}/js/task/interface.js?version={{VERSION}}"></script>
+
+{% endblock %}
+
+

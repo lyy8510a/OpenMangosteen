@@ -8,7 +8,7 @@ import logging
 from config.config import config
 
 
-class Config():
+def init_app(app):
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     logpath = '{0}/logs'.format(BASE_DIR)
     if not os.path.exists(logpath):
@@ -19,6 +19,6 @@ class Config():
     logging_format = logging.Formatter(
         '%(asctime)s - %(levelname)s - %(filename)s - %(funcName)s - %(lineno)s - %(message)s')
     handler.setFormatter(logging_format)
+    app.logger.addHandler(handler)
 
 
-logconfig = Config()

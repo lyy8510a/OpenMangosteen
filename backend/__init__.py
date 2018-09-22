@@ -14,6 +14,7 @@ from backend.assets import assets_env, main_css, main_js
 from config.config import config
 from config.session import config as redis_config
 from config.error import BaseError, OrmError
+from config import log
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_FOLDER = os.path.join(BASE_DIR, 'frontend')
@@ -28,6 +29,8 @@ def create_app():
     # 导入配置项
     app.config.from_object(config)
     app.config.from_object(redis_config)
+
+    log.init_app(app)
     # 注册路由
     urls.register(app)
     # 注册数据库

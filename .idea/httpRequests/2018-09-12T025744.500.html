@@ -1,0 +1,583 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>TypeError: Object of type 'IntervalTrigger' is not JSON serializable // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css"
+        type="text/css">
+    <!-- We need to make sure this has a favicon so that the debugger does
+         not by accident trigger a request to /favicon.ico which might
+         change the application state. -->
+    <link rel="shortcut icon"
+        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js"></script>
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script type="text/javascript">
+      var TRACEBACK = 4446942824,
+          CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "SdVn0laJBY0IYAxnMYeF";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>builtins.TypeError</h1>
+<div class="detail">
+  <p class="errormsg">TypeError: Object of type 'IntervalTrigger' is not JSON serializable</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  
+  <ul><li><div class="frame" id="frame-4446943048">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py"</cite>,
+      line <em class="line">2309</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source"><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>def __call__(self, environ, start_response):</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app` which can be</pre>
+<pre class="line before"><span class="ws">        </span>wrapped to applying middleware.&quot;&quot;&quot;</pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def __repr__(self):</pre>
+<pre class="line after"><span class="ws">        </span>return '&lt;%s %r&gt;' % (</pre>
+<pre class="line after"><span class="ws">            </span>self.__class__.__name__,</pre>
+<pre class="line after"><span class="ws">            </span>self.name,</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943272">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py"</cite>,
+      line <em class="line">2295</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line before"><span class="ws">                </span>error = e</pre>
+<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
+<pre class="line after"><span class="ws">                </span>raise</pre>
+<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>
+<pre class="line after"><span class="ws">        </span>finally:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943328">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py"</cite>,
+      line <em class="line">1741</em>,
+      in <code class="function">handle_exception</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">            </span># if we want to repropagate the exception, we can attempt to</pre>
+<pre class="line before"><span class="ws">            </span># raise it with the whole traceback in case we can do that</pre>
+<pre class="line before"><span class="ws">            </span># (the function was actually called from the except part)</pre>
+<pre class="line before"><span class="ws">            </span># otherwise, we just raise the error again</pre>
+<pre class="line before"><span class="ws">            </span>if exc_value is e:</pre>
+<pre class="line current"><span class="ws">                </span>reraise(exc_type, exc_value, tb)</pre>
+<pre class="line after"><span class="ws">            </span>else:</pre>
+<pre class="line after"><span class="ws">                </span>raise e</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">        </span>self.log_exception((exc_type, exc_value, tb))</pre>
+<pre class="line after"><span class="ws">        </span>if handler is None:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943384">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/_compat.py"</cite>,
+      line <em class="line">35</em>,
+      in <code class="function">reraise</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">    </span>from io import StringIO</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>def reraise(tp, value, tb=None):</pre>
+<pre class="line before"><span class="ws">        </span>if value.__traceback__ is not tb:</pre>
+<pre class="line before"><span class="ws">            </span>raise value.with_traceback(tb)</pre>
+<pre class="line current"><span class="ws">        </span>raise value</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>implements_to_string = _identity</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span>else:</pre>
+<pre class="line after"><span class="ws">    </span>text_type = unicode</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446942880">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py"</cite>,
+      line <em class="line">2292</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
+<pre class="line before"><span class="ws">        </span>error = None</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">                </span>error = e</pre>
+<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943496">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py"</cite>,
+      line <em class="line">1815</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Given the return value from a view function this finalizes</pre>
+<pre class="line after"><span class="ws">        </span>the request by converting it into a response and invoking the</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943552">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py"</cite>,
+      line <em class="line">1718</em>,
+      in <code class="function">handle_user_exception</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">            </span>return self.handle_http_exception(e)</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span>handler = self._find_error_handler(e)</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span>if handler is None:</pre>
+<pre class="line current"><span class="ws">            </span>reraise(exc_type, exc_value, tb)</pre>
+<pre class="line after"><span class="ws">        </span>return handler(e)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def handle_exception(self, e):</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Default exception handling that kicks in when an exception</pre>
+<pre class="line after"><span class="ws">        </span>occurs that is not caught.  In debug mode the exception will</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943608">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/_compat.py"</cite>,
+      line <em class="line">35</em>,
+      in <code class="function">reraise</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">    </span>from io import StringIO</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>def reraise(tp, value, tb=None):</pre>
+<pre class="line before"><span class="ws">        </span>if value.__traceback__ is not tb:</pre>
+<pre class="line before"><span class="ws">            </span>raise value.with_traceback(tb)</pre>
+<pre class="line current"><span class="ws">        </span>raise value</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>implements_to_string = _identity</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span>else:</pre>
+<pre class="line after"><span class="ws">    </span>text_type = unicode</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446942992">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py"</cite>,
+      line <em class="line">1813</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943720">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py"</cite>,
+      line <em class="line">1799</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">        </span># request came with the OPTIONS method, reply automatically</pre>
+<pre class="line before"><span class="ws">        </span>if getattr(rule, 'provide_automatic_options', False) \</pre>
+<pre class="line before"><span class="ws">           </span>and req.method == 'OPTIONS':</pre>
+<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>
+<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
+<pre class="line current"><span class="ws">        </span>return self.view_functions[rule.endpoint](**req.view_args)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self):</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Dispatches the request and on top of that performs request</pre>
+<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
+<pre class="line after"><span class="ws">        </span>error handling.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943776">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/backend/api/views.py"</cite>,
+      line <em class="line">59</em>,
+      in <code class="function">get_job</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">        </span>dict['name'] = item.name</pre>
+<pre class="line before"><span class="ws">        </span>dict['next_run_time'] = item.next_run_time</pre>
+<pre class="line before"><span class="ws">        </span>dict['trigger'] = item.trigger</pre>
+<pre class="line before"><span class="ws">        </span>dict['args'] = item.args</pre>
+<pre class="line before"><span class="ws">        </span>all_job.append(dict)</pre>
+<pre class="line current"><span class="ws">    </span>return outputnJsoByMessage('S','',all_job)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span>def test2(args):</pre>
+<pre class="line after"><span class="ws">    </span>print(args)</pre>
+<pre class="line after"><span class="ws"></span> </pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943160">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/utils/layout.py"</cite>,
+      line <em class="line">26</em>,
+      in <code class="function">outputnJsoByMessage</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">                        </span>'RETURN_CODE':RETURN_CODE,</pre>
+<pre class="line before"><span class="ws">                        </span>'RETURN_STAMP':time.time(),</pre>
+<pre class="line before"><span class="ws">                        </span>'RETURN_DATA':RETURN_DATA</pre>
+<pre class="line before"><span class="ws">                        </span>}</pre>
+<pre class="line before"><span class="ws">    </span>dict['RETURN_DESC'] = RETURN_DESC</pre>
+<pre class="line current"><span class="ws">    </span>return jsonify(dict)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span> </pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943440">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/json/__init__.py"</cite>,
+      line <em class="line">321</em>,
+      in <code class="function">jsonify</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">        </span>data = args[0]</pre>
+<pre class="line before"><span class="ws">    </span>else:</pre>
+<pre class="line before"><span class="ws">        </span>data = args or kwargs</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>return current_app.response_class(</pre>
+<pre class="line current"><span class="ws">        </span>dumps(data, indent=indent, separators=separators) + '\n',</pre>
+<pre class="line after"><span class="ws">        </span>mimetype=current_app.config['JSONIFY_MIMETYPE']</pre>
+<pre class="line after"><span class="ws">    </span>)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span>def tojson_filter(obj, **kwargs):</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446942712">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/json/__init__.py"</cite>,
+      line <em class="line">179</em>,
+      in <code class="function">dumps</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">    </span>default is controlled by the ``JSON_AS_ASCII`` configuration variable</pre>
+<pre class="line before"><span class="ws">    </span>and can be overridden by the simplejson ``ensure_ascii`` parameter.</pre>
+<pre class="line before"><span class="ws">    </span>&quot;&quot;&quot;</pre>
+<pre class="line before"><span class="ws">    </span>_dump_arg_defaults(kwargs)</pre>
+<pre class="line before"><span class="ws">    </span>encoding = kwargs.pop('encoding', None)</pre>
+<pre class="line current"><span class="ws">    </span>rv = _json.dumps(obj, **kwargs)</pre>
+<pre class="line after"><span class="ws">    </span>if encoding is not None and isinstance(rv, text_type):</pre>
+<pre class="line after"><span class="ws">        </span>rv = rv.encode(encoding)</pre>
+<pre class="line after"><span class="ws">    </span>return rv</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span> </pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943104">
+  <h4>File <cite class="filename">"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py"</cite>,
+      line <em class="line">238</em>,
+      in <code class="function">dumps</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">        </span>cls = JSONEncoder</pre>
+<pre class="line before"><span class="ws">    </span>return cls(</pre>
+<pre class="line before"><span class="ws">        </span>skipkeys=skipkeys, ensure_ascii=ensure_ascii,</pre>
+<pre class="line before"><span class="ws">        </span>check_circular=check_circular, allow_nan=allow_nan, indent=indent,</pre>
+<pre class="line before"><span class="ws">        </span>separators=separators, default=default, sort_keys=sort_keys,</pre>
+<pre class="line current"><span class="ws">        </span>**kw).encode(obj)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span>_default_decoder = JSONDecoder(object_hook=None, object_pairs_hook=None)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span> </pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943664">
+  <h4>File <cite class="filename">"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py"</cite>,
+      line <em class="line">201</em>,
+      in <code class="function">encode</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">        </span># This doesn't pass the iterator directly to ''.join() because the</pre>
+<pre class="line before"><span class="ws">        </span># exceptions aren't as detailed.  The list call should be roughly</pre>
+<pre class="line before"><span class="ws">        </span># equivalent to the PySequence_Fast that ''.join() would do.</pre>
+<pre class="line before"><span class="ws">        </span>chunks = self.iterencode(o, _one_shot=True)</pre>
+<pre class="line before"><span class="ws">        </span>if not isinstance(chunks, (list, tuple)):</pre>
+<pre class="line current"><span class="ws">            </span>chunks = list(chunks)</pre>
+<pre class="line after"><span class="ws">        </span>return ''.join(chunks)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def iterencode(self, o, _one_shot=False):</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Encode the given object and yield each string</pre>
+<pre class="line after"><span class="ws">        </span>representation as available.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943888">
+  <h4>File <cite class="filename">"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py"</cite>,
+      line <em class="line">430</em>,
+      in <code class="function">_iterencode</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">            </span># see comment for int/float in _make_iterencode</pre>
+<pre class="line before"><span class="ws">            </span>yield _floatstr(o)</pre>
+<pre class="line before"><span class="ws">        </span>elif isinstance(o, (list, tuple)):</pre>
+<pre class="line before"><span class="ws">            </span>yield from _iterencode_list(o, _current_indent_level)</pre>
+<pre class="line before"><span class="ws">        </span>elif isinstance(o, dict):</pre>
+<pre class="line current"><span class="ws">            </span>yield from _iterencode_dict(o, _current_indent_level)</pre>
+<pre class="line after"><span class="ws">        </span>else:</pre>
+<pre class="line after"><span class="ws">            </span>if markers is not None:</pre>
+<pre class="line after"><span class="ws">                </span>markerid = id(o)</pre>
+<pre class="line after"><span class="ws">                </span>if markerid in markers:</pre>
+<pre class="line after"><span class="ws">                    </span>raise ValueError(&quot;Circular reference detected&quot;)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943944">
+  <h4>File <cite class="filename">"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py"</cite>,
+      line <em class="line">404</em>,
+      in <code class="function">_iterencode_dict</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">                    </span>chunks = _iterencode_list(value, _current_indent_level)</pre>
+<pre class="line before"><span class="ws">                </span>elif isinstance(value, dict):</pre>
+<pre class="line before"><span class="ws">                    </span>chunks = _iterencode_dict(value, _current_indent_level)</pre>
+<pre class="line before"><span class="ws">                </span>else:</pre>
+<pre class="line before"><span class="ws">                    </span>chunks = _iterencode(value, _current_indent_level)</pre>
+<pre class="line current"><span class="ws">                </span>yield from chunks</pre>
+<pre class="line after"><span class="ws">        </span>if newline_indent is not None:</pre>
+<pre class="line after"><span class="ws">            </span>_current_indent_level -= 1</pre>
+<pre class="line after"><span class="ws">            </span>yield '\n' + _indent * _current_indent_level</pre>
+<pre class="line after"><span class="ws">        </span>yield '}'</pre>
+<pre class="line after"><span class="ws">        </span>if markers is not None:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446944000">
+  <h4>File <cite class="filename">"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py"</cite>,
+      line <em class="line">404</em>,
+      in <code class="function">_iterencode_dict</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">                    </span>chunks = _iterencode_list(value, _current_indent_level)</pre>
+<pre class="line before"><span class="ws">                </span>elif isinstance(value, dict):</pre>
+<pre class="line before"><span class="ws">                    </span>chunks = _iterencode_dict(value, _current_indent_level)</pre>
+<pre class="line before"><span class="ws">                </span>else:</pre>
+<pre class="line before"><span class="ws">                    </span>chunks = _iterencode(value, _current_indent_level)</pre>
+<pre class="line current"><span class="ws">                </span>yield from chunks</pre>
+<pre class="line after"><span class="ws">        </span>if newline_indent is not None:</pre>
+<pre class="line after"><span class="ws">            </span>_current_indent_level -= 1</pre>
+<pre class="line after"><span class="ws">            </span>yield '\n' + _indent * _current_indent_level</pre>
+<pre class="line after"><span class="ws">        </span>yield '}'</pre>
+<pre class="line after"><span class="ws">        </span>if markers is not None:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446944056">
+  <h4>File <cite class="filename">"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py"</cite>,
+      line <em class="line">325</em>,
+      in <code class="function">_iterencode_list</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">                    </span>chunks = _iterencode_list(value, _current_indent_level)</pre>
+<pre class="line before"><span class="ws">                </span>elif isinstance(value, dict):</pre>
+<pre class="line before"><span class="ws">                    </span>chunks = _iterencode_dict(value, _current_indent_level)</pre>
+<pre class="line before"><span class="ws">                </span>else:</pre>
+<pre class="line before"><span class="ws">                    </span>chunks = _iterencode(value, _current_indent_level)</pre>
+<pre class="line current"><span class="ws">                </span>yield from chunks</pre>
+<pre class="line after"><span class="ws">        </span>if newline_indent is not None:</pre>
+<pre class="line after"><span class="ws">            </span>_current_indent_level -= 1</pre>
+<pre class="line after"><span class="ws">            </span>yield '\n' + _indent * _current_indent_level</pre>
+<pre class="line after"><span class="ws">        </span>yield ']'</pre>
+<pre class="line after"><span class="ws">        </span>if markers is not None:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446944112">
+  <h4>File <cite class="filename">"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py"</cite>,
+      line <em class="line">404</em>,
+      in <code class="function">_iterencode_dict</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">                    </span>chunks = _iterencode_list(value, _current_indent_level)</pre>
+<pre class="line before"><span class="ws">                </span>elif isinstance(value, dict):</pre>
+<pre class="line before"><span class="ws">                    </span>chunks = _iterencode_dict(value, _current_indent_level)</pre>
+<pre class="line before"><span class="ws">                </span>else:</pre>
+<pre class="line before"><span class="ws">                    </span>chunks = _iterencode(value, _current_indent_level)</pre>
+<pre class="line current"><span class="ws">                </span>yield from chunks</pre>
+<pre class="line after"><span class="ws">        </span>if newline_indent is not None:</pre>
+<pre class="line after"><span class="ws">            </span>_current_indent_level -= 1</pre>
+<pre class="line after"><span class="ws">            </span>yield '\n' + _indent * _current_indent_level</pre>
+<pre class="line after"><span class="ws">        </span>yield '}'</pre>
+<pre class="line after"><span class="ws">        </span>if markers is not None:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446944168">
+  <h4>File <cite class="filename">"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py"</cite>,
+      line <em class="line">437</em>,
+      in <code class="function">_iterencode</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">            </span>if markers is not None:</pre>
+<pre class="line before"><span class="ws">                </span>markerid = id(o)</pre>
+<pre class="line before"><span class="ws">                </span>if markerid in markers:</pre>
+<pre class="line before"><span class="ws">                    </span>raise ValueError(&quot;Circular reference detected&quot;)</pre>
+<pre class="line before"><span class="ws">                </span>markers[markerid] = o</pre>
+<pre class="line current"><span class="ws">            </span>o = _default(o)</pre>
+<pre class="line after"><span class="ws">            </span>yield from _iterencode(o, _current_indent_level)</pre>
+<pre class="line after"><span class="ws">            </span>if markers is not None:</pre>
+<pre class="line after"><span class="ws">                </span>del markers[markerid]</pre>
+<pre class="line after"><span class="ws">    </span>return _iterencode</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446944224">
+  <h4>File <cite class="filename">"/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/json/__init__.py"</cite>,
+      line <em class="line">81</em>,
+      in <code class="function">default</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">            </span>return http_date(o.timetuple())</pre>
+<pre class="line before"><span class="ws">        </span>if isinstance(o, uuid.UUID):</pre>
+<pre class="line before"><span class="ws">            </span>return str(o)</pre>
+<pre class="line before"><span class="ws">        </span>if hasattr(o, '__html__'):</pre>
+<pre class="line before"><span class="ws">            </span>return text_type(o.__html__())</pre>
+<pre class="line current"><span class="ws">        </span>return _json.JSONEncoder.default(self, o)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span>class JSONDecoder(_json.JSONDecoder):</pre>
+<pre class="line after"><span class="ws">    </span>&quot;&quot;&quot;The default JSON decoder.  This one does not change the behavior from</pre>
+<pre class="line after"><span class="ws">    </span>the default simplejson decoder.  Consult the :mod:`json` documentation</pre></div>
+</div>
+
+<li><div class="frame" id="frame-4446943216">
+  <h4>File <cite class="filename">"/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py"</cite>,
+      line <em class="line">180</em>,
+      in <code class="function">default</code></h4>
+  <div class="source"><pre class="line before"><span class="ws">                </span># Let the base class default method raise the TypeError</pre>
+<pre class="line before"><span class="ws">                </span>return JSONEncoder.default(self, o)</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
+<pre class="line before"><span class="ws">        </span>raise TypeError(&quot;Object of type '%s' is not JSON serializable&quot; %</pre>
+<pre class="line current"><span class="ws">                        </span>o.__class__.__name__)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def encode(self, o):</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Return a JSON string representation of a Python data structure.</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">        </span>&gt;&gt;&gt; from json.encoder import JSONEncoder</pre></div>
+</div>
+</ul>
+  <blockquote>TypeError: Object of type 'IntervalTrigger' is not JSON serializable</blockquote>
+</div>
+
+<div class="plain">
+  <form action="/?__debugger__=yes&amp;cmd=paste" method="post">
+    <p>
+      <input type="hidden" name="language" value="pytb">
+      This is the Copy/Paste friendly version of the traceback.  <span
+      class="pastemessage">You can also paste this traceback into
+      a <a href="https://gist.github.com/">gist</a>:
+      <input type="submit" value="create paste"></span>
+    </p>
+    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py&quot;, line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py&quot;, line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py&quot;, line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/_compat.py&quot;, line 35, in reraise
+    raise value
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py&quot;, line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py&quot;, line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py&quot;, line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/_compat.py&quot;, line 35, in reraise
+    raise value
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py&quot;, line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py&quot;, line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/backend/api/views.py&quot;, line 59, in get_job
+    return outputnJsoByMessage('S','',all_job)
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/utils/layout.py&quot;, line 26, in outputnJsoByMessage
+    return jsonify(dict)
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/json/__init__.py&quot;, line 321, in jsonify
+    dumps(data, indent=indent, separators=separators) + '\n',
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/json/__init__.py&quot;, line 179, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py&quot;, line 238, in dumps
+    **kw).encode(obj)
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py&quot;, line 201, in encode
+    chunks = list(chunks)
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py&quot;, line 430, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py&quot;, line 404, in _iterencode_dict
+    yield from chunks
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py&quot;, line 404, in _iterencode_dict
+    yield from chunks
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py&quot;, line 325, in _iterencode_list
+    yield from chunks
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py&quot;, line 404, in _iterencode_dict
+    yield from chunks
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py&quot;, line 437, in _iterencode
+    o = _default(o)
+  File &quot;/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/json/__init__.py&quot;, line 81, in default
+    return _json.JSONEncoder.default(self, o)
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py&quot;, line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'IntervalTrigger' is not JSON serializable</textarea>
+  </form>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class="nojavascript">
+  If you enable JavaScript you can also use additional features such as code
+  execution (if the evalex feature is enabled), automatic pasting of the
+  exceptions and much more.</span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        <form>
+          <p>PIN:
+            <input type=text name=pin size=14>
+            <input type=submit name=btn value="Confirm Pin">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Traceback (most recent call last):
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/backend/api/views.py", line 59, in get_job
+    return outputnJsoByMessage('S','',all_job)
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/utils/layout.py", line 26, in outputnJsoByMessage
+    return jsonify(dict)
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/json/__init__.py", line 321, in jsonify
+    dumps(data, indent=indent, separators=separators) + '\n',
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/json/__init__.py", line 179, in dumps
+    rv = _json.dumps(obj, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 404, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 404, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 404, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 437, in _iterencode
+    o = _default(o)
+  File "/Users/liaoyangyang/crc/codes-dc/python/taskcenter/venv/lib/python3.6/site-packages/flask/json/__init__.py", line 81, in default
+    return _json.JSONEncoder.default(self, o)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'IntervalTrigger' is not JSON serializable
+
+-->

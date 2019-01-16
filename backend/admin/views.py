@@ -11,10 +11,6 @@ from backend.models.TaskModel import InterfaceTaskModel,RemotecmdTaskModel
 admin = Blueprint('admin', __name__)
 
 
-@admin.before_request
-def before_request():
-    if not 'userdata' in (session):
-        return redirect(app.config['LOGIN_URL'] + '?cburl=' + request.url, 302)
 
 
 @admin.route('/')

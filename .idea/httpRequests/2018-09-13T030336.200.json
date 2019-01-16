@@ -1,0 +1,14 @@
+{
+  "RESPONSE": {
+    "RETURN_CODE": "S", 
+    "RETURN_DATA": {
+      "allowed_hosts": [
+        "*"
+      ], 
+      "current_host": "liaoyangyangdemacbook-air.local", 
+      "running": true
+    }, 
+    "RETURN_STAMP": 1536822216.612308
+  }, 
+  "RETURN_DESC": ""
+}

@@ -1,0 +1,8 @@
+{
+  "RESPONSE": {
+    "RETURN_CODE": "S", 
+    "RETURN_DATA": "{\"alljob\": [{\"id\": \"test_job_1\", \"name\": \"test_job_1\", \"next_run_time\": \"2018-09-12 15:03:36 166044\", \"interval\": 1, \"start_date\": \"2018-09-12 15:03:33 166044\", \"args\": [\"7\"]}]}", 
+    "RETURN_STAMP": 1536735816.062978
+  }, 
+  "RETURN_DESC": ""
+}

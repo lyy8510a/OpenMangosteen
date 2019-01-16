@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1bc6468-201c-4c20-96ec-85adffc8acae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/admin/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/congruent_pentagon.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/congruent_pentagon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/header-profile-skin-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/header-profile-skin-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/header-profile-skin-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/header-profile-skin-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/header-profile-skin-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/header-profile-skin-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/header-profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/header-profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/otis_redding.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/otis_redding.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/shattered.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/shattered.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/patterns/triangular.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/patterns/triangular.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/blueimp-gallery-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/blueimp-gallery-indicator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/blueimp-gallery-video.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/blueimp-gallery-video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/blueimp-gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/blueimp-gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/blueimp-gallery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/blueimp-gallery.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/error.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/error.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/play-pause.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/play-pause.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/play-pause.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/play-pause.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/video-play.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/video-play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/video-play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/blueimp/img/video-play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrap-markdown/bootstrap-markdown.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrap-markdown/bootstrap-markdown.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrap-rtl/bootstrap-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrap-rtl/bootstrap-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrap-rtl/bootstrap-rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrap-rtl/bootstrap-rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrap-rtl/bootstrap-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrap-rtl/bootstrap-rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrapTour/bootstrap-tour.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/bootstrapTour/bootstrap-tour.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/c3/c3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/c3/c3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/chartist/chartist.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/chartist/chartist.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/chosen/chosen-sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/chosen/chosen-sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/chosen/chosen-sprite@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/chosen/chosen-sprite@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/chosen/chosen.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/chosen/chosen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/clockpicker/clockpicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/clockpicker/clockpicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/codemirror/ambiance.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/codemirror/ambiance.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/codemirror/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/codemirror/codemirror.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/colorpicker/bootstrap-colorpicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/colorpicker/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/cropper/cropper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/cropper/cropper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/dataTables/datatables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/dataTables/datatables.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/datapicker/datepicker3.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/datapicker/datepicker3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/daterangepicker/daterangepicker-bs3.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/daterangepicker/daterangepicker-bs3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/dropzone/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/dropzone/basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/dropzone/dropzone.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/dropzone/dropzone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/footable/fonts/footable.eot" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/footable/fonts/footable.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/footable/fonts/footable.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/footable/fonts/footable.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/footable/fonts/footable.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/footable/fonts/footable.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/footable/fonts/footable.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/footable/fonts/footable.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/footable/footable.core.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/footable/footable.core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/fullcalendar/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/fullcalendar/fullcalendar.print.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/iCheck/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/iCheck/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/iCheck/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/iCheck/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/iCheck/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/hue.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/saturation.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/sort.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/sort.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/sort_asc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/sort_desc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/sprite-skin-flat.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/sprite-skin-flat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/sprite-skin-flat2.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/sprite-skin-flat2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/sprite-skin-nice.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/sprite-skin-nice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/sprite-skin-simple.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/sprite-skin-simple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/spritemap.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/spritemap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/images/spritemap@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/images/spritemap@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinNice.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinNice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinSimple.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinSimple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/animated-overlay.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/animated-overlay.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_2e83ff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jQueryUI/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jasny/jasny-bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jasny/jasny-bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jqGrid/ui.jqgrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jqGrid/ui.jqgrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/32px.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/32px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/39px.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/39px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/40px.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/40px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/jsTree/throbber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/ladda/ladda-themeless.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/ladda/ladda-themeless.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/ladda/ladda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/ladda/ladda.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/morris/morris-0.4.3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/nouslider/jquery.nouislider.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/slick/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/slick/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/slick/fonts/slick.eot" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/slick/fonts/slick.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/slick/fonts/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/slick/fonts/slick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/slick/fonts/slick.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/slick/fonts/slick.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/slick/fonts/slick.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/slick/fonts/slick.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/slick/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/slick/slick-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/slick/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/slick/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/social-buttons/social-buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/social-buttons/social-buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/steps/jquery.steps.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/steps/jquery.steps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/summernote/summernote-bs3.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/summernote/summernote-bs3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/summernote/summernote.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/summernote/summernote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/sweetalert/sweetalert.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/switchery/switchery.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/switchery/switchery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/toastr/toastr.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/toastr/toastr.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/plugins/touchspin/jquery.bootstrap-touchspin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/plugins/touchspin/jquery.bootstrap-touchspin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/animated.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/core.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/path.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_path.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/inspinia.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/inspinia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/jquery-2.1.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/jquery-2.1.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/jquery-ui-1.10.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/jquery-ui-1.10.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/jquery-ui.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/blueimp/jquery.blueimp-gallery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/bootstrap-markdown/bootstrap-markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/bootstrap-markdown/bootstrap-markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/bootstrap-markdown/markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/bootstrap-markdown/markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/bootstrapTour/bootstrap-tour.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/bootstrapTour/bootstrap-tour.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/c3/c3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/c3/c3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/chartJs/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/chartJs/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/chartist/chartist.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/chartist/chartist.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/chartist/chartist.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/chartist/chartist.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/chosen/chosen.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/chosen/chosen.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/clipboard/clipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/clipboard/clipboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/clockpicker/clockpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/clockpicker/clockpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/codemirror.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/apl/apl.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/apl/apl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/apl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/apl/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/asterisk/asterisk.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/asterisk/asterisk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/asterisk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/asterisk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clike/clike.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clike/clike.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clike/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clike/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clike/scala.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clike/scala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clojure/clojure.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clojure/clojure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clojure/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/clojure/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/cobol/cobol.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/cobol/cobol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/cobol/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/cobol/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/coffeescript/coffeescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/coffeescript/coffeescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/coffeescript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/coffeescript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/commonlisp/commonlisp.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/commonlisp/commonlisp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/commonlisp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/commonlisp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/less.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/less.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/less_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/less_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/scss.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/scss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/scss_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/scss_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/css/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/cypher/cypher.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/cypher/cypher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/cypher/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/cypher/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/d/d.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/d/d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/d/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/d/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/diff/diff.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/diff/diff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/diff/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/diff/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/django/django.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/django/django.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/django/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/django/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/dtd/dtd.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/dtd/dtd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/dtd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/dtd/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/dylan/dylan.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/dylan/dylan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/dylan/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/dylan/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ecl/ecl.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ecl/ecl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ecl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ecl/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/eiffel/eiffel.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/eiffel/eiffel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/eiffel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/eiffel/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/erlang/erlang.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/erlang/erlang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/erlang/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/erlang/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/fortran/fortran.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/fortran/fortran.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/fortran/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/fortran/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gas/gas.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gas/gas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gfm/gfm.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gfm/gfm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gfm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gfm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gfm/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gfm/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gherkin/gherkin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gherkin/gherkin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gherkin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/gherkin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/go/go.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/go/go.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/go/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/groovy/groovy.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/groovy/groovy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/groovy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/groovy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haml/haml.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haml/haml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haml/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haml/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haml/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haskell/haskell.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haskell/haskell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haskell/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haskell/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haxe/haxe.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haxe/haxe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haxe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/haxe/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/htmlembedded/htmlembedded.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/htmlembedded/htmlembedded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/htmlembedded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/htmlembedded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/htmlmixed/htmlmixed.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/htmlmixed/htmlmixed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/htmlmixed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/htmlmixed/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/http/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/http/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/http/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/http/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/jade/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/jade/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/jade/jade.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/jade/jade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/json-ld.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/json-ld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/typescript.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/javascript/typescript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/jinja2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/jinja2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/jinja2/jinja2.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/jinja2/jinja2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/julia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/julia/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/julia/julia.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/julia/julia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/kotlin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/kotlin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/kotlin/kotlin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/kotlin/kotlin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/livescript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/livescript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/livescript/livescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/livescript/livescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/lua/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/lua/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/lua/lua.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/lua/lua.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/markdown/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/markdown/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/markdown/markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/markdown/markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/markdown/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/markdown/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/meta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/mirc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/mirc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/mirc/mirc.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/mirc/mirc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/mllike/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/mllike/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/mllike/mllike.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/mllike/mllike.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/modelica/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/modelica/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/modelica/modelica.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/modelica/modelica.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/nginx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/nginx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/nginx/nginx.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/nginx/nginx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ntriples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ntriples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ntriples/ntriples.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ntriples/ntriples.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/octave/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/octave/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/octave/octave.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/octave/octave.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pascal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pascal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pascal/pascal.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pascal/pascal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pegjs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pegjs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pegjs/pegjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pegjs/pegjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/perl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/perl/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/perl/perl.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/perl/perl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/php/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/php/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/php/php.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/php/php.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/php/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/php/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pig/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pig/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pig/pig.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/pig/pig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/properties/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/properties/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/properties/properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/properties/properties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/puppet/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/puppet/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/puppet/puppet.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/puppet/puppet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/python/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/python/python.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/python/python.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/q/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/q/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/q/q.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/q/q.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/r/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/r/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/r/r.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/r/r.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rpm/changes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rpm/changes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rpm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rpm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rpm/rpm.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rpm/rpm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rst/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rst/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rst/rst.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rst/rst.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ruby/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ruby/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ruby/ruby.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ruby/ruby.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ruby/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/ruby/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rust/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rust/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rust/rust.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/rust/rust.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sass/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sass/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sass/sass.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sass/sass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/scheme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/scheme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/scheme/scheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/scheme/scheme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/shell/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/shell/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/shell/shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/shell/shell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/shell/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/shell/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sieve/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sieve/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sieve/sieve.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sieve/sieve.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/slim/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/slim/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/slim/slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/slim/slim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/slim/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/slim/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smalltalk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smalltalk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smalltalk/smalltalk.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smalltalk/smalltalk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smarty/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smarty/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smarty/smarty.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smarty/smarty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smartymixed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smartymixed/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smartymixed/smartymixed.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/smartymixed/smartymixed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/solr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/solr/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/solr/solr.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/solr/solr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sparql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sparql/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sparql/sparql.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sparql/sparql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sql/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sql/sql.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/sql/sql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/stex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/stex/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/stex/stex.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/stex/stex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/stex/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/stex/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tcl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tcl/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tcl/tcl.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tcl/tcl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/textile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/textile/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/textile/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/textile/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/textile/textile.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/textile/textile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiddlywiki/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiddlywiki/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiki/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiki/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiki/tiki.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiki/tiki.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiki/tiki.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tiki/tiki.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/toml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/toml/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/toml/toml.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/toml/toml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tornado/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tornado/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tornado/tornado.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/tornado/tornado.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/turtle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/turtle/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/turtle/turtle.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/turtle/turtle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/vb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/vb/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/vb/vb.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/vb/vb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/vbscript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/vbscript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/vbscript/vbscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/vbscript/vbscript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/velocity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/velocity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/velocity/velocity.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/velocity/velocity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/verilog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/verilog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/verilog/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/verilog/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/verilog/verilog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/verilog/verilog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xml/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xml/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xml/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xml/xml.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xml/xml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xquery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xquery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xquery/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xquery/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xquery/xquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/xquery/xquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/yaml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/yaml/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/yaml/yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/yaml/yaml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/z80/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/z80/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/z80/z80.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/codemirror/mode/z80/z80.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/cropper/cropper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/cropper/cropper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/d3/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/d3/d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/dataTables/datatables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/dataTables/datatables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/datapicker/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/daterangepicker/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/diff_match_patch/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/diff_match_patch/COPYING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/diff_match_patch/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/diff_match_patch/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/diff_match_patch/javascript/diff_match_patch.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/diff_match_patch/javascript/diff_match_patch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/dotdotdot/jquery.dotdotdot.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/dotdotdot/jquery.dotdotdot.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/dropzone/dropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/dropzone/dropzone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/easypiechart/easypiechart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/easypiechart/easypiechart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/easypiechart/jquery.easypiechart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/easypiechart/jquery.easypiechart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/flot/curvedLines.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/flot/curvedLines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/flot/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/flot/excanvas.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.spline.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.spline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.symbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.time.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/footable/footable.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/footable/footable.all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/fullcalendar/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/fullcalendar/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/fullcalendar/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/images/gritter-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/images/gritter-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/images/gritter-long.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/images/gritter-long.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/images/gritter.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/images/gritter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/images/ie-spacer.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/jquery.gritter.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/jquery.gritter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/jquery.gritter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/gritter/jquery.gritter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/i18next/i18next.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/i18next/i18next.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/iCheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/idle-timer/idle-timer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/idle-timer/idle-timer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jasny/jasny-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jasny/jasny-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jeditable/jquery.jeditable.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jeditable/jquery.jeditable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-bg1251.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-bg1251.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-cat.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-cat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-da.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-de.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-dk.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-dk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-el.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-en.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-es.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-he.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-hr1250.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-hr1250.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-id.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-is.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-is.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-it.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-kr.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-kr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-mne.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-mne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-no.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-sr-latin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-sr-latin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-th.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-tw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ua.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-ua.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/i18n/grid.locale-vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/jquery.jqGrid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jqGrid/jquery.jqGrid.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery-ui-i18n.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery-ui-i18n.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-af.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-af.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar-DZ.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar-DZ.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-az.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-az.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-be.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-be.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-bg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-bg.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-bs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-bs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ca.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ca.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-cs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-cs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-cy-GB.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-cy-GB.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-da.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-da.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-de.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-de.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-el.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-el.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-AU.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-AU.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-GB.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-GB.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-NZ.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-NZ.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-eo.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-eo.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-es.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-es.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-et.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-et.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-eu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-eu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fa.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fa.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fi.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fi.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fo.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fo.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CA.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CA.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CH.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CH.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-gl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-gl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-he.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-he.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hi.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hi.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hy.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hy.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-id.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-id.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-is.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-is.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-it.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-it.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ja.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ja.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ka.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ka.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-kk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-kk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-km.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-km.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ko.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ko.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ky.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ky.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lb.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lb.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lt.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lt.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-mk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-mk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ml.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ml.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ms.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ms.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nb.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nb.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl-BE.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl-BE.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nn.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nn.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-no.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-no.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt-BR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt-BR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-rm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-rm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ro.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ro.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ru.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ru.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sq.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sq.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr-SR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr-SR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ta.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ta.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-th.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-th.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-tj.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-tj.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-tr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-tr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-uk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-uk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-vi.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-vi.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-HK.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-HK.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-TW.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-TW.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/animated-overlay.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/animated-overlay.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_2e83ff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_454545_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_888888_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/jquery-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jsKnob/jquery.knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jsKnob/jquery.knob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jsTree/jstree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jsTree/jstree.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/jquery.justifiedgallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/jquery.justifiedgallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/jquery.justifiedgallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/jquery.justifiedgallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/jquery.justifiedgallery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/jquery.justifiedgallery.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/jquery.justifiedgallery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/jquery.justifiedgallery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/justified-gallery/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jvectormap/jquery-jvectormap-2.0.2.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jvectormap/jquery-jvectormap-2.0.2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/ladda/ladda.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/ladda/ladda.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/ladda/ladda.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/ladda/ladda.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/ladda/spin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/ladda/spin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/masonary/masonry.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/masonary/masonry.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/metisMenu/jquery.metisMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/morris/morris.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/morris/morris.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/morris/raphael-2.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/morris/raphael-2.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/nestable/jquery.nestable.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/nestable/jquery.nestable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/nouslider/jquery.nouislider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/nouslider/jquery.nouislider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/pace/pace.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/pace/pace.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/peity/jquery.peity.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/peity/jquery.peity.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/rickshaw/rickshaw.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/rickshaw/rickshaw.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/rickshaw/vendor/d3.v3.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/rickshaw/vendor/d3.v3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/select2/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/slick/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/slick/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/slimscroll/jquery.slimscroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/slimscroll/jquery.slimscroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/slimscroll/jquery.slimscroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/sparkline/jquery.sparkline.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/staps/jquery.steps.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/staps/jquery.steps.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/summernote/summernote.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/summernote/summernote.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/sweetalert/sweetalert.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/switchery/switchery.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/switchery/switchery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/tinycon/tinycon.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/tinycon/tinycon.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/toastr/toastr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/toastr/toastr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/touchspin/jquery.bootstrap-touchspin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/touchspin/jquery.bootstrap-touchspin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/validate/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/validate/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/video/responsible-video.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/video/responsible-video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/js/plugins/wow/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/js/plugins/wow/wow.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/locales/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/locales/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/idnex_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/index_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/index_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/interface_task_add_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/interface_task_add_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/remotecmd_task_add_1.png" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Mangosteen$start.coverage" NAME="start Coverage Results" MODIFIED="1545635519790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/taskcenter$manage.coverage" NAME="start Coverage Results" MODIFIED="1537166615600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Mangosteen$manage.coverage" NAME="manage Coverage Results" MODIFIED="1547600821742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/taskcenter$demo.coverage" NAME="demo Coverage Results" MODIFIED="1536721183830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/taskcenter$command.coverage" NAME="command Coverage Results" MODIFIED="1537166225328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="963844230">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/base/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#97#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding>
+                <element signature="e#96#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="e#95#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add_j</find>
+      <find>add_interval_job</find>
+      <find>fix</find>
+      <find>add_job</find>
+      <find>jobstore</find>
+      <find>_pending_jobs</find>
+      <find>wizard</find>
+      <find>username</find>
+      <find>outputnJsoByMessage</find>
+      <find>handle_http_exception</find>
+      <find>before_request</find>
+      <find>teardown_appcontext</find>
+      <find>interval</find>
+      <find>SCHEDULER_API_ENABLED</find>
+      <find>_load_api</find>
+      <find>api_enabled</find>
+      <find>scheduler</find>
+      <find>api_prefix</find>
+      <find>route</find>
+      <find>config</find>
+      <find>ex</find>
+      <find>task_remotecmd_cmd_value</find>
+      <find>start_interface_task</find>
+      <find>task_remotecmd_trigger_value</find>
+      <find>job_def</find>
+      <find>start_task</find>
+      <find>stop_task</find>
+      <find>app.logger</find>
+      <find>DEBUG</find>
+      <find>before_first</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>outputJsonByMessage</replace>
+      <replace>start_task</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/requirement.txt" />
+        <option value="$PROJECT_DIR$/test/demo.py" />
+        <option value="$PROJECT_DIR$/utils/layout.py" />
+        <option value="$PROJECT_DIR$/frontend/base/_head.html" />
+        <option value="$PROJECT_DIR$/backend/assets.py" />
+        <option value="$PROJECT_DIR$/backend/urls.py" />
+        <option value="$PROJECT_DIR$/backend/models/UserModel.py" />
+        <option value="$PROJECT_DIR$/backend/account/views.py" />
+        <option value="$PROJECT_DIR$/backend/views.py" />
+        <option value="$PROJECT_DIR$/frontend/account/edituser.html" />
+        <option value="$PROJECT_DIR$/frontend/account/login.html" />
+        <option value="$PROJECT_DIR$/frontend/account/register.html" />
+        <option value="$PROJECT_DIR$/frontend/base/_navbar.html" />
+        <option value="$PROJECT_DIR$/frontend/base/layout.html" />
+        <option value="$PROJECT_DIR$/backend/account/api.py" />
+        <option value="$PROJECT_DIR$/frontend/task/remotecmd.html" />
+        <option value="$PROJECT_DIR$/backend/models/TaskModel.py" />
+        <option value="$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_apscheduler/scheduler.py" />
+        <option value="$PROJECT_DIR$/frontend/base/index.html" />
+        <option value="$PROJECT_DIR$/frontend/static/js/admin/index.js" />
+        <option value="$PROJECT_DIR$/frontend/static/js/admin/index.js" />
+        <option value="$PROJECT_DIR$/backend/task/views.py" />
+        <option value="$PROJECT_DIR$/backend/task/views.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/frontend/base/index.html" />
+        <option value="$PROJECT_DIR$/frontend/base/_sidebar.html" />
+        <option value="$PROJECT_DIR$/backend/api/views.py" />
+        <option value="$PROJECT_DIR$/backend/api/views.py" />
+        <option value="$PROJECT_DIR$/frontend/task/interface.html" />
+        <option value="$PROJECT_DIR$/frontend/static/js/task/interface.js" />
+        <option value="$PROJECT_DIR$/utils/command.py" />
+        <option value="$PROJECT_DIR$/utils/command.py" />
+        <option value="$PROJECT_DIR$/config/log.py" />
+        <option value="$PROJECT_DIR$/backend/__init__.py" />
+        <option value="$PROJECT_DIR$/backend/__init__.py" />
+        <option value="$PROJECT_DIR$/config/config.py" />
+        <option value="$PROJECT_DIR$/backend/admin/views.py" />
+        <option value="$PROJECT_DIR$/config/session.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="23" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mangosteen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mangosteen" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/liaoyangyang/crc/codes-dc/python/Mangosteen/backend/task/views.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/task" />
+      <recent name="$PROJECT_DIR$/frontend/base" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:10103" />
+          <option name="urlPath" value="/api/status_job" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:10103" />
+          <option name="urlPath" value="api/status_job" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:10103" />
+          <option name="urlPath" value="/api/get_job" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:10103" />
+          <option name="urlPath" value="/api/add_job" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:10103" />
+          <option name="urlPath" value="/api/get_job" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:10103" />
+          <option name="urlPath" value="/api/add_job" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Mangosteen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="taskcenter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1bc6468-201c-4c20-96ec-85adffc8acae" name="Default" comment="" />
+      <created>1536657407496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536657407496</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add screenshot">
+      <created>1537237213522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537237213522</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix log">
+      <created>1537617305276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537617305276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2809524" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32973805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="REST Client" order="9" weight="0.49744245" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32973805" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32992327" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add screenshot" />
+    <MESSAGE value="fix log" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix log" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/sqlalchemy/sql/schema.py" />
+    <entry file="file://$PROJECT_DIR$/backend/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/account/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/account/edituser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/base/_navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/frontend/base/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="27" column="82" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/base/_head_bak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/base/_head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.3/python_stubs/1346122008/posix.py" />
+    <entry file="file://$PROJECT_DIR$/logs/201809171017/111.log" />
+    <entry file="file://$PROJECT_DIR$/logs/test_2.log" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_wtf/csrf.py" />
+    <entry file="file://$PROJECT_DIR$/backend/assets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/account/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/models/TaskModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/20180917/test.log" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/apscheduler/schedulers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-861">
+          <caret line="366" column="54" selection-start-line="366" selection-start-column="46" selection-end-line="366" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_apscheduler/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask_apscheduler/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="151" column="3" lean-forward="true" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/20180917/test_3.log" />
+    <entry file="file://$PROJECT_DIR$/backend/admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/logs/20180917/testssh_1.log" />
+    <entry file="file://$PROJECT_DIR$/backend/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/20180917/test_2.log" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="432" column="38" selection-start-line="432" selection-start-column="18" selection-end-line="432" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/base/_sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="37" selection-start-line="37" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/models/UserModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/js/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/20180918/testssh_2.log" />
+    <entry file="file://$PROJECT_DIR$/utils/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/task/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/task/remotecmd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="174" column="42" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/task/interface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/js/task/interface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/base/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#95#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#96#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="150" column="28" selection-start-line="150" selection-start-column="28" selection-end-line="150" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#97#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

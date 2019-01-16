@@ -15,11 +15,11 @@ class Config(object):
     # 项目名称
     PROJECTNAME = '任务中心'
     # 端口
-    PORT = 10103
+    PORT = 10105
     ADMIN_USER = 'admin'
     ADMIN_EMAIL = '51263921@qq.com'
     SECRET_KEY = os.urandom(24)
-
+    JSON_AS_ASCII = False
     SCHEDULER_API_ENABLED = True
     MAX_INSTANCES = 3
     # SCHEDULER_ALLOWED_HOSTS = '127.0.0.1'
@@ -53,10 +53,10 @@ class SitConfig(Config):
     ASSETS_DEBUG = True
 
     # # 数据库配置
-    MYSQL_HOST = '127.0.0.1'  # 此处修改为您的mysql的主机IP
+    MYSQL_HOST = ''  # 此处修改为您的mysql的主机IP
     MYSQL_PORT = 3306  # 此处修改为您的mysql的主机端口
-    MYSQL_USER = 'root'  # 此处修改为您的mysql的用户名称
-    MYSQL_PASS = '123456'  # 此处修改为您的mysql的用户密码
+    MYSQL_USER = ''  # 此处修改为您的mysql的用户名称
+    MYSQL_PASS = ''  # 此处修改为您的mysql的用户密码
     MYSQL_DB = 'task'  # 此处修改为您的mysql的数据库名称
 
     SQLALCHEMY_DATABASE_URI = "mysql+pymysql://{0}:{1}@{2}:{3}/{4}?charset=utf8".format(MYSQL_USER, MYSQL_PASS,
